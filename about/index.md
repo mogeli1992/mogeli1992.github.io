@@ -6,7 +6,7 @@ date: 2016-08-16
 comments: false
 ---
 
-<center>这个人很懒……
+<center>这个人很懒……<br>
 ...(｡•ˇ‸ˇ•｡) .. </center>
 <br>
 <br>
@@ -42,5 +42,5 @@ comments: false
 <br>
 <br>
 
-<center>……没有更多了
+<center>……没有更多了<br>
 ( ͡° ͜ʖ ͡°) </center>
