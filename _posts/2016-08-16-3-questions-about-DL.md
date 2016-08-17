@@ -9,13 +9,16 @@ comments: true
 
 
 ### Three questions while learning Deep Learning 
+
 #### 学习深度学习过程中的几个问题
+
 ----------
+
 1. 
-#### In my opinion, there are three points in selection of activation function as below.
-* continuous: for derivation
-* function value beween 0 and 1: for normalization
-* non-linear: to express higher complexity with deeper network
+	#### In my opinion, there are three points in selection of activation function as below.
+	* continuous: for derivation
+	* function value beween 0 and 1: for normalization
+	* non-linear: to express higher complexity with deeper network
 
 	#### Is it right?
 	
@@ -26,13 +29,14 @@ comments: true
 
 
 2. 
-#### The book referred 2 methods to prevent learning slow-down:
-* keep σ as the activation funtion, while using cross-entropy as cost funtion instead of quadratic cost function
-* a soft-max output layer with log-likelihood cost
+	#### The book referred 2 methods to prevent learning slow-down:
+	* keep σ as the activation funtion, while using cross-entropy as cost funtion instead of quadratic cost function
+	* a soft-max output layer with log-likelihood cost
 
 	#### I think this can only prevent learning slow-down of the last layer, i.e the output layer.
 	#### As for the other layers, viz. the hidden layers, whose activation function is still σ, σ′ remains to be in the partial derivative ∂C/∂w. Which means the problem slow-down still exists.
 	#### Change an appropriate activation function may be a solution.
+		
 		书上用两种方法来解决学习变慢问题
 			1. 输出层依然用激活函数σ，成本函数改用交叉熵
 			2. 应用softmax输出层，结合成本函数 log-likelihood cost function
@@ -41,7 +45,7 @@ comments: true
 
 
 3. 
-#### Why config η, not delta(loss) or |delta(weight)| ? 
+	#### Why config η, not delta(loss) or |delta(weight)| ? 
 	#### For convenience? 
 	#### Can we prevent slow-down of learning with the later configuration?
 		
