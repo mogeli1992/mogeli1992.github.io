@@ -34,7 +34,9 @@ comments: true
 	* a soft-max output layer with log-likelihood cost
 
 	#### I think this can only prevent learning slow-down of the last layer, i.e the output layer.
+
 	#### As for the other layers, viz. the hidden layers, whose activation function is still σ, σ′ remains to be in the partial derivative ∂C/∂w. Which means the problem slow-down still exists.
+
 	#### Change an appropriate activation function may be a solution.
 		
 		书上用两种方法来解决学习变慢问题
@@ -46,7 +48,9 @@ comments: true
 
 3. 
 	#### Why config η, not delta(loss) or |delta(weight)| ? 
+
 	#### For convenience? 
+	
 	#### Can we prevent slow-down of learning with the later configuration?
 		
 		是否可以通过限定weight offset vector length, 或损失函数的修改量来解决学习变慢问题？ 
