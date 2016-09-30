@@ -3,7 +3,7 @@ layout: post
 title: "3 questions about DL"
 date: 2016-08-17
 excerpt: ""
-tags: [Computer Science]
+tags: [Computer Science, Machine Learning]
 comments: true
 ---
 
